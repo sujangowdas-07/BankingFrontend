@@ -52,7 +52,7 @@ const PublicRoute = ({ children }) => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/BankingFrontend/">
       <AuthProvider>
         <Routes>
           {/* Public Routes */}
